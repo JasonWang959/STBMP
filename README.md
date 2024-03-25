@@ -60,6 +60,7 @@ CUDA_VISIBLE_DEVICES={GPU_ID} python main_cmu_3d.py --t_input_size=75  --s_input
 + Train on 3DPW:
 ```
 CUDA_VISIBLE_DEVICES={GPU_ID} python main_3dpw_3d.py --t_input_size=69  --s_input_size=40 --input_n=10 --output_n=30 --dct_n=40  --is_load=False
+```
 
 ### Acknowledgments
  
