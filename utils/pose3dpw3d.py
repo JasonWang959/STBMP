@@ -83,8 +83,8 @@ class Pose3dPW3D(Dataset):
         t_joint = motion_data # N,T,VC
         s_joint = motion_data.transpose(0,2,1)# N,VC,T
         self.input = input_seqs
-        self.input_t = t_joint
-        self.input_s = s_joint 
+        self.input_t = input_seqs#t_joint
+        self.input_s = input_seqs.transpose(0,2,1)#s_joint  
 
     def __len__(self):
         return np.shape(self.input)[0]
