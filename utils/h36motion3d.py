@@ -53,8 +53,8 @@ class H36motion3D(Dataset):
         t_joint = motion_data 
         s_joint = motion_data.transpose(0,2,1)
         self.input = input_seqs
-        self.input_t = t_joint#input_seqs#t_joint
-        self.input_s = s_joint#input_seqs.transpose(0,2,1)#s_joint         
+        self.input_t = input_seqs#t_joint
+        self.input_s = input_seqs.transpose(0,2,1)#s_joint         
 
     def __len__(self):
         return np.shape(self.input_t)[0]
