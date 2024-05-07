@@ -62,6 +62,10 @@ CUDA_VISIBLE_DEVICES={GPU_ID} python main_cmu_3d.py --t_input_size=75  --s_input
 CUDA_VISIBLE_DEVICES={GPU_ID} python main_3dpw_3d.py --t_input_size=69  --s_input_size=40 --input_n=10 --output_n=30 --dct_n=40  --is_load=False
 ```
 
+# Test commands
+
+Modif --is_load from "False" to "True" after the above training commands.
+
 ### Acknowledgments
  
 Some of our code was adapted from [SPGSN](https://github.com/MediaBrain-SJTU/SPGSN).
