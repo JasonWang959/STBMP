@@ -1,5 +1,9 @@
 # STBMP
 
+![Error] We appreciate your interest in our work, but we do apologize for the "Motion Increments" issue. After reviewing our code, we found that the implementation in our code indeed implicitly included information about the first frame of future motion.  In the middle of July, we reported this case to ACM MM23 and asked for withdrawal. We sincerely apologize for any inconvenience and misleading this may have caused to you, other readers, and our community.
+
+Best wishes with your research!
+
 # Framework
 ![STBMP](https://github.com/JasonWang959/STPMP/blob/main/image/pipeline.png)
 
