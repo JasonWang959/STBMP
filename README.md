@@ -1,6 +1,6 @@
 # STBMP
 
-![Error] We appreciate your interest in our work, but we do apologize for the "Motion Increments" issue. After reviewing our code, we found that the implementation in our code indeed implicitly included information about the first frame of future motion.  In the middle of July, we reported this case to ACM MM23 and asked for withdrawal. We sincerely apologize for any inconvenience and misleading this may have caused to you, other readers, and our community.
+We appreciate your interest in our work, but we do apologize for the "Motion Increments" issue. After reviewing our code, we found that the implementation in our code indeed implicitly included information about the first frame of future motion.  In mid-July,, we formally reported this issue to ACM MM23 and requested the withdrawal of our paper.  We sincerely apologize for any inconvenience and misleading this may have caused to you, other readers, and our community. We hope that despite this error, other aspects of the research presented in the paper may still prove valuable to your work.
 
 Best wishes with your research!
 
